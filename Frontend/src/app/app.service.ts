@@ -9,7 +9,7 @@ import { Observable, catchError, of} from 'rxjs';
 })
 export class AppService {
 
-  API_URL = "https://5000-idx-mongovarsity-1731094466375.cluster-4ezwrnmkojawstf2k7vqy36oe6.cloudworkstations.dev/api/v1"
+  API_URL = "http://127.0.0.1:5000/api/v1"
 
   constructor(
     private _httpClient: HttpClient,
