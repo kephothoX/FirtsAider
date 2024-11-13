@@ -1,0 +1,210 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+@media screen and (min-width: 480px) {
+  .brand-pic {
+    display: flex;
+    flex-direction: row;
+    border: 1px ridge #00aabb;
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+  }
+
+  .brand1-pic {
+    display: flex;
+    flex-direction: row;
+    border: 1px groove #010101;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+  }
+
+
+  .brand2-pic {
+    display: flex;
+    flex-direction: row;
+    border: 1px groove #302f2f;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+  }
+
+}
+
+@media screen and (min-width: 760px) {
+  .brand-pic {
+    display: flex;
+    flex-direction: row;
+    border: 1px ridge #00aabb;
+    width: 45px;
+    height: 45px;
+    border-radius: 85px;
+  }
+
+  .brand1-pic {
+    display: flex;
+    flex-direction: row;
+    border: 1px groove #010101;
+    width: 35px;
+    height: 35px;
+    border-radius: 55px;
+  }
+
+
+  .brand2-pic {
+    display: flex;
+    flex-direction: row;
+    border: 1px groove #302f2f;
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+  }
+
+}
+
+@media screen and (min-width: 960px) {
+  .brand-pic {
+    display: flex;
+    flex-direction: row;
+    border: 1px ridge #00aabb;
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+  }
+
+  .brand1-pic {
+    display: flex;
+    flex-direction: row;
+    border: 1px groove #010101;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+  }
+
+
+  .brand2-pic {
+    display: flex;
+    flex-direction: row;
+    border: 1px groove #302f2f;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .brand-pic {
+    display: flex;
+    flex-direction: row;
+    border: 1px ridge #00aabb;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+  }
+
+  .brand1-pic {
+    display: flex;
+    flex-direction: row;
+    border: 1px groove #010101;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+  }
+
+
+  .brand2-pic {
+    display: flex;
+    flex-direction: row;
+    border: 1px groove #302f2f;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+  }
+
+}
+
+@media screen and (min-width: 1400px) {
+  .brand-pic {
+    display: flex;
+    flex-direction: row;
+    border: 1px ridge #00aabb;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+  }
+
+  .brand1-pic {
+    display: flex;
+    flex-direction: row;
+    border: 1px groove #010101;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+  }
+
+
+  .brand2-pic {
+    display: flex;
+    flex-direction: row;
+    border: 1px groove #302f2f;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+  }
+
+}
+
+@media screen and (min-width: 1600px) {
+  .brand-pic {
+    display: flex;
+    flex-direction: row;
+    border: 1px ridge #00aabb;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+  }
+
+  .brand1-pic {
+    display: flex;
+    flex-direction: row;
+    border: 1px groove #010101;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+  }
+
+
+  .brand2-pic {
+    display: flex;
+    flex-direction: row;
+    border: 1px groove #302f2f;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+  }
+
+  .list-group-item {
+    border: 0px !important;
+  }
+
+}
+
+.queryBox {
+  border-top-right-radius: 20px !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-right-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+}
+
+
+.resBox {
+  border-top-right-radius: 0px !important;
+  border-top-left-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+}

@@ -1,0 +1,33 @@
+<section class="container-fluid">
+  <mat-card class="mat-elevation-z8">
+    <mat-card-title>
+      <h2 class="fs-2 text-danger-emphasis">
+        First Aider Agent
+      </h2>
+    </mat-card-title>
+
+    <mat-divider></mat-divider>
+    <mat-card-content cdkScrollable cdkDrag id="ChatBox" class="d-flex flex-column">
+    </mat-card-content>
+    <mat-divider></mat-divider>
+  </mat-card>
+  <mat-progress-bar mode="indeterminate" color="primary" *ngIf="!PromptResponse"></mat-progress-bar>
+  <mat-card class="mat-elevation-z6">
+    <mat-divider></mat-divider>
+    <mat-card-footer>
+      <form [formGroup]="promptForm">
+          <mat-form-field appearance="outline" class="form-control mat-elevation-z6">
+              <mat-hint align="end">Ask me anything on  First Aid  and Mental Health.</mat-hint>
+              <input type="text" matInput  formControlName="prompt"  placeholder="Type to Start...">
+
+              <button matSuffix mat-icon-button matTooltip="Click to Start Conversation" color="warn"  class="text-primary"  (click)="ngOnSubmit()" [disabled]="!promptForm.valid">
+                  <mat-icon class="text-warn material-symbols-outlined">send</mat-icon>
+              </button>
+          </mat-form-field>
+      </form>
+    </mat-card-footer>
+    <mat-divider> </mat-divider>
+  </mat-card>
+</section>
+
+
